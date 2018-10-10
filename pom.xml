@@ -89,6 +89,7 @@
                             <version>${version.surefire}</version>
                             <configuration>
                                 <reuseForks>false</reuseForks>
+                                <failIfNoTests>true</failIfNoTests>
                             </configuration>
                         </plugin>
                     </plugins>
